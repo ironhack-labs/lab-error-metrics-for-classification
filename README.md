@@ -16,7 +16,7 @@ In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/
 
 Work on the models that you created to predict the movie rating. 
 
-1. Create a Python named `get_model_metrics`, that given a model, the `train`, and the `test` sets, returns a pandas dataframe with the following columns: (`Error_metric`, `Train`, `Test`). The error metrics reported must be 
+1. Create a Python function named `get_model_metrics`, that given a model, the `train`, and the `test` sets, returns a pandas dataframe with the following columns: (`Error_metric`, `Train`, `Test`). The error metrics reported must be 
    - Accuracy
    - Precision
    - Recall
